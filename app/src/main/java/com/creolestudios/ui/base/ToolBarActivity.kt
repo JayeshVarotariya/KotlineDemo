@@ -22,7 +22,7 @@ abstract class ToolBarActivity :NavigateActivity() {
 
     private fun intToolBarDrawerLayout() {
 
-        //int variable so we can access from here in to child class
+        //init variable so we can access from here in to child class
         drawerLayout=drawerLayoutMain
         appBar=appBarMain
         toolBar=toolbarMain

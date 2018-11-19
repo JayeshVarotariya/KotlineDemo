@@ -1,4 +1,4 @@
-package com.creolestudios.rest
+package com.creolestudios.data
 
 class URLFactory {
 
