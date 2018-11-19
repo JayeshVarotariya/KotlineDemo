@@ -1,0 +1,75 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-kapt'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.creolestudios"
+        minSdkVersion 22
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    // Support libraries
+    implementation deps.support.app_compat
+    implementation deps.support.v4
+    implementation deps.support.design
+    implementation deps.lifecycle.java8
+    implementation deps.lifecycle.runtime
+
+    implementation deps.retrofit.gson
+    implementation deps.retrofit.rxjava2adapter
+    implementation deps.retrofit.runtime
+    implementation deps.retrofit.gson
+    implementation deps.retrofit.log
+
+    implementation deps.glide.runtime
+    implementation deps.timber
+
+    // kotlin
+    // Kotlin
+    implementation deps.kotlin.stdlib
+    implementation deps.room.runtime
+
+
+    // Architecture components
+    kapt deps.lifecycle.compiler
+    implementation deps.lifecycle.extensions
+
+
+    // RxJava
+    implementation deps.rx_android
+    implementation deps.rxjava2
+
+    implementation deps.dagger.runtime
+    implementation deps.dagger.android
+    implementation deps.dagger.android_support
+    implementation deps.constraint_layout
+
+
+    kapt deps.dagger.android_support_compiler
+    kapt deps.dagger.compiler
+
+}
+
