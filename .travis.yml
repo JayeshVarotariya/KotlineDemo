@@ -21,10 +21,10 @@ before_deploy:
       - git tag $TRAVIS_TAG
   
 deploy:
-  provider: assembleDebug
+  provider: release
   api_key: $GIT_KEY
   file_glob: true
-  file: $TRAVIS_BUILD_DIR/app/build/outputs/apk/debug/*.apk
+  file: $TRAVIS_BUILD_DIR/app/build/outputs/apk/release/*.apk
   skip_cleanup: true
   overwrite: true
   prerelease: true
