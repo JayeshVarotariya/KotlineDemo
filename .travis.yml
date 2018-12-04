@@ -12,3 +12,11 @@ env:
 # Run assemble and unit tests
 script:
   - ./gradlew clean assembleDebug
+  
+  deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: 181a63bda3ba19a1240142ece635d628b3d82cdc  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master
