@@ -13,10 +13,18 @@ env:
 script:
   - ./gradlew clean assembleDebug
   
-  deploy:
+deploy:
   provider: assembleDebug
-  skip-cleanup: true
-  github-token: $GIT_KEY  # Set in the settings page of your repository, as a secure variable
-  keep-history: true
+  api_key: $GIT_KEY
+  file_glob: true
+  file: $TRAVIS_BUILD_DIR/app/build/outputs/apk/debug/*.apk
+  skip_cleanup: true
+  overwrite: true
+  prerelease: true
+  target_commitsh: $TRAVIS_COMMIT
   on:
     branch: master
+    repo: JayeshVarotariya/KotlineDemo
+    
+after_deploy:
+  - rm -rf $TRAVIS_BUILD_DIR/app/build/outputs
