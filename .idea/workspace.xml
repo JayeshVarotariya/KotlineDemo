@@ -14,9 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ad9edc2-ec22-4158-a5d5-a6d7cd5642b4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
-    </list>
+    <list default="true" id="0ad9edc2-ec22-4158-a5d5-a6d7cd5642b4" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,8 +69,11 @@
       <file leaf-file-name="DemoApp.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/creolestudios/DemoApp.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="157">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="e#27#322#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2605,7 +2606,7 @@
           <expand>
             <path>
               <item name="KotlineDemo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="e9137016:NonAndroidModuleNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
             </path>
             <path>
               <item name="KotlineDemo" type="1abcf292:AndroidViewProjectNode" />
@@ -2786,6 +2787,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1301" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -2796,7 +2798,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.40425533" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.43617022" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20744681" />
       <window_info anchor="bottom" id="Logcat" order="7" weight="0.07801419" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
@@ -2805,7 +2807,7 @@
       <window_info anchor="bottom" id="Build" order="7" weight="0.32978722" />
       <window_info anchor="right" id="Gradle" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Fabric" order="3" visible="true" weight="0.32988048" />
+      <window_info active="true" anchor="right" id="Fabric" order="3" visible="true" weight="0.32988048" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Device File Explorer" order="7" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -3195,8 +3197,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/creolestudios/DemoApp.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="157">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#27#322#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
