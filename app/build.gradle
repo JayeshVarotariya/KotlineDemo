@@ -18,8 +18,10 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
-        ext.betaDistributionGroupAliases = "beta-android"
-        ext.betaDistributionReleaseNotesFilePath = "beta_release_notes.txt"
+        ext.betaDistributionEmails = "jayesh@creolestudios.com"
+        ext.betaDistributionNotifications = true
+        ext.betaDistributionReleaseNotes = 'Minor bug fixes'
+
     }
     buildTypes {
         release {
