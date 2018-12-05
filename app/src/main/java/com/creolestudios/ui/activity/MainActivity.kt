@@ -34,7 +34,6 @@ class MainActivity : ToolBarActivity(),HasSupportFragmentInjector {
 
         super.onCreate(savedInstanceState)
 
-
                 cryptocurrencyRepository.getCryptocurrenciesFromApi()
                     .subscribeOn(Schedulers.io())
                     .observeOn(AndroidSchedulers.mainThread())
