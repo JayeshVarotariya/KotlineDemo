@@ -11,11 +11,8 @@ env:
 
 # Run assemble and unit tests
 script:
-  - ./gradlew clean assembleDebug
-  
-after_script:
-  - ./gradlew crashlyticsUploadDistributionRelease
-  
+  - ./gradlew clean assembleDebug crashlyticsUploadDistributionRelease
+
 #before_deploy:
       # Set up git user name and tag this commit
 #      - git config --local user.name "JayeshVarotariya"
